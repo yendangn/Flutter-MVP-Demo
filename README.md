@@ -288,7 +288,7 @@ class Injector {
 ```
 
 
-#### schema
+#### d. schema
 
 Define data class
 
@@ -329,5 +329,5 @@ class Picture {
 
 ```
 
-#### main.dart
+#### e. main.dart
 Root of project. 
