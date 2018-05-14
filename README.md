@@ -1,8 +1,8 @@
 # Flutter MVP demo
 
-Apply MVP to Fultter project.
+Apply MVP to Flutter project.
 
-To esay understand this project, you can visit my other project which talk about ListView on Flutter at here:
+To easy understand this project, you can visit my other project first which talk about ListView on Flutter at here:
 https://github.com/yendangn/Flutter-Simple-ListView
 
 ## UI Overview
