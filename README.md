@@ -1,8 +1,20 @@
-# user_app
+# Flutter MVP demo
 
-A new Flutter application.
+Apply MVP to Fultter project.
 
-## Getting Started
+To esay understand this project, you can visit my other project which talk about ListView on Flutter at here:
+https://github.com/yendangn/Flutter-Simple-ListView
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+## UI Overview
+
+My project is using API from https://randomuser.me/ . The UI will show list of use as below. And I also apply MVP to it.
+
+1. Android
+
+![](https://github.com/yendangn/Flutter-MVP-Demo/blob/master/images/android_user_list.png)
+
+2. iOS
+
+
+![](https://github.com/yendangn/Flutter-MVP-Demo/blob/master/images/iOS_user_list.png)
+
