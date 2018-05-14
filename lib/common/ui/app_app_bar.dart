@@ -12,9 +12,13 @@ class AppAppBar extends AppBar {
   @override
   bool get centerTitle => true;
 
+
+  @override
+  double get elevation => 2.0;
+
   @override
   Widget get title => new Text(
-        _title,
-        style: new TextStyle(fontSize: 20.0, color: Colors.black),
+        _title.toUpperCase(),
+        style: new TextStyle(fontSize: 20.0, color: Colors.black, fontFamily: "Arquitecta"),
       );
 }

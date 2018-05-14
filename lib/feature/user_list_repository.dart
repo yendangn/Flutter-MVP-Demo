@@ -23,8 +23,9 @@ class UserListRepositoryIml implements UserListRepository {
       final int statusCode = response.statusCode;
 
       if(statusCode != 200 || jsonBody == null){
-
+        print(response.reasonPhrase);
         throw new FetchDataException("StatusCode:$statusCode, Error:${response.reasonPhrase}");
+
 
       }
 
@@ -32,7 +33,8 @@ class UserListRepositoryIml implements UserListRepository {
       final useListContainer = _decoder.convert(jsonBody);
       final List userList = useListContainer['results'];
 
-      return userList.map((userRaw) => new User()).toList();
+      return userList.map((contactRaw) => new User.fromJson(contactRaw) )
+          .toList();
 
     });
   }
