@@ -1,2 +1,8 @@
-# Flutter-MVP-Demo
-This repository show you how to implementing MVP project on Flutter
+# user_app
+
+A new Flutter application.
+
+## Getting Started
+
+For help getting started with Flutter, view our online
+[documentation](https://flutter.io/).
