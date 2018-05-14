@@ -1,10 +1,26 @@
-class User{
+class User {
 
-  int id;
-  int name;
-  int email;
-  String avatar;
+  Name name;
+  Picture picture;
+  String email;
+  String phone;
 
-  User({this.id, this.name, this.email, this.avatar});
+  User({this.name, this.picture, this.email, this.phone});
 
+ 
+}
+
+class Name {
+
+  String last;
+  String first;
+
+  Name({this.last, this.first});
+}
+
+class Picture {
+
+  String medium;
+
+  Picture({this.medium});
 }
